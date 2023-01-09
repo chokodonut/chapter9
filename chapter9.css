@@ -92,3 +92,32 @@ h3 {
   width: 100%;
   background-color: #AAAAAA;
 }
+
+@media screen and (max-width:768px) {
+  .header {
+    width: 100%;
+  }
+  
+  main {
+    width: 100%;
+    display: block;
+  }
+  
+  .box1 {
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .box2 {
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .box3 {
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+}
