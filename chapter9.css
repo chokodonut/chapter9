@@ -11,7 +11,7 @@
 }
 
 main {
-  width: 960px;
+  width: 100%;
   margin: auto;
   display: flex;
   align-items:center;
@@ -101,23 +101,30 @@ h3 {
   main {
     width: 100%;
     display: block;
+    
   }
   
   .box1 {
     width: 90%;
     margin-top: 50px;
     margin-bottom: 0px;
+    margin-right: 5%;
+    margin-left: 5%;
   }
   
   .box2 {
     width: 90%;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
   }
   
   .box3 {
     width: 90%;
     margin-top: 0px;
     margin-bottom: 50px;
+    margin-right: 5%;
+    margin-left: 5%;
   }
 }
