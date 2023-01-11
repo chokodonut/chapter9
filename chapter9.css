@@ -13,6 +13,7 @@
 main {
   width: 100%;
   margin: auto;
+  place-content :center;
   display: flex;
   align-items:center;
 }
@@ -21,11 +22,11 @@ h3 {
   padding: 15px 0px 5px 0px;
 }
 
-.box1 {
+.box {
   width: 300px;
   margin: 50px 15px;
   background-color: #EEEEEE;
-  padding: 10px 10px 0px 10px;
+  padding: 10px 10px 10px 10px;
   position: relative;
 }
 
@@ -33,22 +34,15 @@ h3 {
   background-image: url(img/flow01.png);
   background-size: cover;
   height: 150px;
-  
+
 }
 
-.step1 {
+.step {
   color: white;
   background-color: #FF9A4B;
   position: absolute;
   top:0px;
   left:0px;
-}
-.box2 {
-  width: 300px;
-  margin: 50px 15px;
-  background-color: #EEEEEE;
-  padding: 10px 10px 0px 10px;
-  position: relative;
 }
 
 .image2 {
@@ -57,35 +51,12 @@ h3 {
   height: 150px;
 }
 
-.step2 {
-  color: white;
-  background-color: #FF9A4B;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-}
-
-.box3 {
-  width: 300px;
-  margin: 50px 15px;
-  background-color: #EEEEEE;
-  padding: 10px 10px 0px 10px;
-  position: relative;
-}
-
 .image3 {
    background-image: url(img/flow03.png);
   background-size: cover;
   height: 150px;
 }
 
-.step3 {
-  color: white;
-  background-color: #FF9A4B;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-}
 
 .foot {
   height: 50px;
@@ -97,13 +68,13 @@ h3 {
   .header {
     width: 100%;
   }
-  
+
   main {
     width: 100%;
     display: block;
-    
+
   }
-  
+
   .box1 {
     width: 90%;
     margin-top: 50px;
@@ -111,7 +82,7 @@ h3 {
     margin-right: 5%;
     margin-left: 5%;
   }
-  
+
   .box2 {
     width: 90%;
     margin-top: 20px;
@@ -119,7 +90,7 @@ h3 {
     margin-right: 5%;
     margin-left: 5%;
   }
-  
+
   .box3 {
     width: 90%;
     margin-top: 0px;
