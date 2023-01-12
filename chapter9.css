@@ -22,7 +22,7 @@ h3 {
   padding: 15px 0px 5px 0px;
 }
 
-.box {
+.box1 {
   width: 300px;
   margin: 50px 15px;
   background-color: #EEEEEE;
@@ -37,12 +37,20 @@ h3 {
 
 }
 
-.step {
+.step1 {
   color: white;
   background-color: #FF9A4B;
   position: absolute;
   top:0px;
   left:0px;
+}
+
+.box2 {
+  width: 300px;
+  margin: 50px 15px;
+  background-color: #EEEEEE;
+  padding: 10px 10px 10px 10px;
+  position: relative;
 }
 
 .image2 {
@@ -51,12 +59,35 @@ h3 {
   height: 150px;
 }
 
+.step2 {
+  color: white;
+  background-color: #FF9A4B;
+  position: absolute;
+  top:0px;
+  left:0px;
+}
+
+.box3{
+  width: 300px;
+  margin: 50px 15px;
+  background-color: #EEEEEE;
+  padding: 10px 10px 10px 10px;
+  position: relative;
+}
+
 .image3 {
    background-image: url(img/flow03.png);
   background-size: cover;
   height: 150px;
 }
 
+.step3 {
+  color: white;
+  background-color: #FF9A4B;
+  position: absolute;
+  top:0px;
+  left:0px;
+}
 
 .foot {
   height: 50px;
